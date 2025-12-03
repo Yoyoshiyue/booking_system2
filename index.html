@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>房间A - 桌子预约系统</title>
+    <title>细胞间 - 预约系统</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.1/umd/lucide.min.js"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -126,7 +126,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>房间A - 桌子预约系统</h1>
+        <h1>细胞间 - 预约系统</h1>
         
         <div class="card">
             <h2>新建预约</h2>
@@ -135,8 +135,8 @@
             <div class="form-group">
                 <label>选择桌子</label>
                 <div class="desk-buttons">
-                    <button class="desk-btn" onclick="selectDesk('B桌子')">B桌子</button>
-                    <button class="desk-btn" onclick="selectDesk('C桌子')">C桌子</button>
+                    <button class="desk-btn" onclick="selectDesk('左桌子')">左桌子</button>
+                    <button class="desk-btn" onclick="selectDesk('右桌子')">右桌子</button>
                 </div>
             </div>
 
@@ -148,12 +148,23 @@
             <div class="form-group">
                 <label>时间段</label>
                 <select id="time">
-                    <option value="">请选择时间段</option>
-                    <option value="09:00-11:00">09:00-11:00</option>
-                    <option value="11:00-13:00">11:00-13:00</option>
-                    <option value="13:00-15:00">13:00-15:00</option>
-                    <option value="15:00-17:00">15:00-17:00</option>
-                    <option value="17:00-19:00">17:00-19:00</option>
+                   <option value="">请选择时间段</option>
+                    <option value="08:00-09:00">08:00-09:00</option>
+                    <option value="09:00-10:00">09:00-10:00</option>
+                    <option value="10:00-11:00">10:00-11:00</option>
+                    <option value="11:00-12:00">11:00-12:00</option>
+                    <option value="12:00-13:00">12:00-13:00</option>
+                    <option value="13:00-14:00">13:00-14:00</option>
+                    <option value="14:00-15:00">14:00-15:00</option>
+                    <option value="15:00-16:00">15:00-16:00</option>
+                    <option value="16:00-17:00">16:00-17:00</option>
+                    <option value="17:00-18:00">17:00-18:00</option>
+                    <option value="18:00-19:00">18:00-19:00</option>
+                    <option value="19:00-20:00">19:00-20:00</option>
+                    <option value="20:00-21:00">20:00-21:00</option>
+                    <option value="21:00-22:00">21:00-22:00</option>
+                    <option value="22:00-23:00">22:00-23:00</option>
+                    <option value="23:00-24:00">23:00-24:00</option>
                 </select>
             </div>
 
